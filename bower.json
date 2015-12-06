@@ -1,0 +1,16 @@
+{
+  "name": "gfl-text-avatar",
+  "description": "AngularJS directive for text avatars.",
+  "license": "MIT",
+  "keywords": [
+      "angular",
+      "avatar"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/thomasmalm/gfl-text-avatar.git"
+  },
+  "dependencies": {
+      "angular": "~1.4.8"
+  }
+}
