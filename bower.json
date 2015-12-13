@@ -2,6 +2,7 @@
   "name": "gfl-text-avatar",
   "description": "AngularJS directive for text avatars.",
   "license": "MIT",
+  "main": "dist/gfl-text-avatar.js",
   "keywords": [
       "angular",
       "avatar"
