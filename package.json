@@ -1,7 +1,7 @@
 {
   "name": "gfl-text-avatar",
   "description": "AngularJS directive for text avatars.",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "dependencies": {
     "bower": "^1.6.9",
     "gulp": "^3.9.0",
