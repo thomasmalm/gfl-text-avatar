@@ -35,7 +35,7 @@
                 borderRadius: square ? '2px' : '50%',
                 color: textColor,
                 display: 'inline-block',
-                fontFamily: 'Trebuchet MS, Tahoma, Verdana, Arial, sans-serif',
+                fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif',
                 fontSize: size / 2 + 'px',
                 height: size + 'px',
                 lineHeight: size + 'px',
