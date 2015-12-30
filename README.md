@@ -7,6 +7,10 @@ The appearance is fully customizable using configuration options and CSS.
 
 ![Example](https://github.com/thomasmalm/gfl-examples/blob/master/gfl-text-avatar/default-example.png)
 
+## Demo
+
+[Live Demo](http://goldfishlab.com/examples/gfl-text-avatar/)
+
 ## Install
 
 Bower:
