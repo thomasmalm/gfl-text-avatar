@@ -72,7 +72,10 @@
         };
 
         function getBgColor(text) {
-            return colors[text.charCodeAt(0) - 65];
+            var dec = text.charCodeAt(0);
+            var index = Math.round(dec < 65 ? Math.random() * colors.length : dec % colors.length);
+
+            return colors[index];
         }
 
         function getInitials(text) {
