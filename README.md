@@ -34,6 +34,14 @@ Use the directive in your code:
 ```html
 <gfl-text-avatar>John Doe</gfl-text-avatar>
 ```
+### Configurations
+
+Attribute | Value | Description
+--------- | ----- | -----------
+`bg-color` | CSS color | Background color, default is based on first character.
+`shape` | `round` `square` | Shape, default is `round`.
+`size` | NUMBER | Size, default is 48 px.
+`text-color` | CSS color | Text color, default is #FFF.
 
 ## License
 
