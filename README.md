@@ -33,6 +33,8 @@ angular.module('app', ['gfl.textAvatar']);
 Use the directive in your code:
 ```html
 <gfl-text-avatar>John Doe</gfl-text-avatar>
+
+<gfl-text-avatar>{{user.name}}</gfl-text-avatar>
 ```
 ### Configurations
 
