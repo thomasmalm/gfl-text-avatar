@@ -5,8 +5,8 @@
         .module('gfl.textAvatar')
         .directive('gflTextAvatar', GflTextAvatarDirective);
 
-    GflTextAvatarDirective.$inject = ['GflTextAvatarService'];
-    function GflTextAvatarDirective(GflTextAvatarService) {
+    GflTextAvatarDirective.$inject = ['$interpolate', 'GflTextAvatarService'];
+    function GflTextAvatarDirective($interpolate, GflTextAvatarService) {
         return {
             link: link,
             replace: true,
@@ -16,7 +16,8 @@
         };
 
         function link(scope, element, attrs) {
-            var initials = GflTextAvatarService.getInitials(element.text());
+            var text = $interpolate(element.text())(scope);
+            var initials = GflTextAvatarService.getInitials(text);
             var bgColor = attrs.bgColor ? attrs.bgColor : GflTextAvatarService.getBgColor(initials);
             var size = parseInt(attrs.size, 10) ? attrs.size : 48;
             var square = attrs.shape === 'square';
